@@ -10,7 +10,7 @@ library(h2o)
 h2o.init(nthreads = -1, #Number of threads -1 means use all cores on your machine
          max_mem_size = "8G")  #max mem size is the maximum memory to allocate to H2O
 
-
+# Open a browser to http://localhost:54321 to interact directly with H2O.
 
 # Next we will import a cleaned up version of the Lending Club "Bad Loans" dataset
 # The purpose here is to predict whether a loan will be bad (not repaid to the lender)
